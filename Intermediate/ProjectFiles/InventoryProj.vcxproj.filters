@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\InventoryProj.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3FD71704-4154-4797-B6D0-7BC7CB564627}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\InventoryProj.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\InventoryProjEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C01E3537-28A6-4FCA-BFBA-42DB74799FFA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\InventoryProj">
+      <UniqueIdentifier>{D0BB46AE-1A9F-458E-9B0A-B2092D2ABDFA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\InventoryProj\InventoryProj.Build.cs">
+      <Filter>Source\InventoryProj</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\InventoryProj\InventoryProj.cpp">
+      <Filter>Source\InventoryProj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProj\InventoryProj.h">
+      <Filter>Source\InventoryProj</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProj\InventoryProjGameModeBase.cpp">
+      <Filter>Source\InventoryProj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProj\InventoryProjGameModeBase.h">
+      <Filter>Source\InventoryProj</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

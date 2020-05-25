@@ -1,0 +1,7 @@
+/.vs/*
+/.svn/*
+/Binaries/*
+/Intermediate/*
+!/Intermediate/ProjectFiles/
+/Saved/*
+*.sln
